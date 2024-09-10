@@ -3,6 +3,11 @@
     src: url('./fonts/dm-sans-v11-latin_latin-ext-regular\ \(1\)\ \(1\).ttf');
 }
 
+@font-face {
+    font-family: pp;
+    src: url(./Fonts/PPWoodland-Regular\ \(1\).ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -105,7 +110,7 @@ nav a:hover {
     transform: scale(1.1);
     color: #fff;
     background: #A22A66;
-    box-shadow: 4px 4px 10px #eaeaea;
+    /* box-shadow: 4px 4px 10px #eaeaea; */
 }
 
 .nav_btn {
@@ -128,7 +133,7 @@ nav a:hover {
 
 /* Hero Section */
 .hero {
-    background: url("./assets/Brown\ Modern\ Room\ Tour\ Vlog\ YouTube\ Thumbnail.png") no-repeat center/cover;
+   
     color: #000000;
     padding: 5rem 1rem;
 }
@@ -140,50 +145,95 @@ nav a:hover {
 
 .hero_btn {
     color: #ffffff;
-    background-color: #000000;
-    font-size: 1.2rem;
+    background-color: #A22A66;
+    font-size: .9rem;
+    margin-top: 10vh;
+    border-bottom: 100px;
+    border-radius: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    color: #333;
+    text-transform: uppercase;
+    margin-left: 4%;
 
 }
 
+.hero_btn:hover{
+    background-color: #a22a66a1;
+    color: #ffffff;
+    transition: all ease-in .3s;
+}
+
 .hero h2 {
-    font-size: 1.8rem;
+    font-size: 2.8rem;
     width: 100%;
     line-height: 1.5;
-    
+    font-family: pp;
+    color: #333;
+    line-height: 2.8rem;
     animation: open 1.5s ease-in .5s 1 alternate-reverse forwards;
-
+    margin-top: .5vh;
 }
 
 .hero h2 span {
     font-size: 2.2rem;
-    color: #A22A66;
+    color: #a22a66d5;
+    
 }
 
 .hero p {
     padding-top: .5rem;
-    font-size: .8rem;
+    font-size: 1.2vw;
     margin-bottom: .5rem;
+    line-height: 1rem;
+    text-transform: uppercase;
+    font-family: pp;
+    margin-top: 1vh;
+    color: #111111;
+    font-weight: 600;
+    width: 100%;
 }
 
 .hero p span {
     padding: 0 .3rem;
-    font-size: 1rem;
+    font-size: 1vw;
     font-weight: 500;
-    color: #A22A66;
+    text-transform: capitalize;
+    border: none;
+    color: #ffffff;
+    border: 1px solid #A22A66;
+    padding: 3px 20px;
+    border-radius: 50px;
+    background-color: #A22A66;
+}
+
+#para{
+    width: 50%;
+    font-family:pp;
+    margin-left: 25%;
+    font-size: 1.5vw;
+    line-height: 1.5vw;
+}
+
+#Galler-h2{
+    font-size: 5vw;
+    color: #333;
+    margin-top: -5%;
 }
 
 
+
 #hero_tags{
-    width: 40vw;
+    width: 50vw;
     position: absolute;
-    top: 40vh;
+    top: 10vh;
     left: 18vw;
     /* background-color: #f39c12; */
 }
 #header-img{
     height: 90vh;
     width: 92%;
-    background-color: #A22A66;
+    /* background-color: #a22a66d3; */
     margin-left: 4%;
     border-radius: 20px;
     overflow: hidden;
@@ -638,7 +688,7 @@ footer p {
 
 
   #h2-text{
-    font-size: 3vw;
+    font-size: 4vw;
     text-transform: uppercase;
     font-family:myFirstFont;
     color: #333;
@@ -653,6 +703,7 @@ footer p {
   #page4 {
     height: 100vh;
     width: 100%;
+    position: relative;
     /* background-color: burlywood; */
   }
   
