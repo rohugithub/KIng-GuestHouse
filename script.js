@@ -1,14 +1,3 @@
-document.addEventListener('DOMContentLoaded', function () {
-    var menuButton = document.querySelector('.menu_btn');
-    var navMenu = document.querySelector('nav ul');
-
-    menuButton.addEventListener('click', function () {
-        navMenu.classList.toggle('active');
-    });
-});
-
-
-
 var swiper = new Swiper(".mySwiper", {
   spaceBetween: 30,
   centeredSlides: true,
@@ -17,7 +6,7 @@ var swiper = new Swiper(".mySwiper", {
   //   disableOnInteraction: false,
   // },
   pagination: {
-    el: ".swiper-pagination",
+    // el: ".swiper-pagination",
     clickable: true,
   },
   navigation: {
@@ -25,3 +14,8 @@ var swiper = new Swiper(".mySwiper", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+
+
+
+
